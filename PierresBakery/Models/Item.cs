@@ -11,7 +11,7 @@ namespace PierresBakery.Models
             Price = price;
         }
 
-        public int TotalBreadPrice()
+        public int TotalPrice()
         {
             if (Quantity < 3)
             {
@@ -19,7 +19,6 @@ namespace PierresBakery.Models
             }
             else
             {
-                //return -(Math.Round(Quantity, 0) / 3) * 5 + Quantity * 5;
                 int cntDisc = Quantity / 3;
                 return (Quantity * Price) - (cntDisc * Price);
             }
@@ -32,7 +31,7 @@ namespace PierresBakery.Models
 
         public string ShowTotal()
         {
-            return $"Here is your total for bread: ${TotalBreadPrice}";
+            return $"Here is your total for bread: ${TotalPrice()}";
         }
 
         public string ShowDeal()
@@ -50,7 +49,7 @@ namespace PierresBakery.Models
         {
             Price = price;
         }
-        public int TotalPastryPrice()
+        public int TotalPrice()
         {
             //if (pastriesAnswer < 3)
             //{
@@ -81,7 +80,7 @@ namespace PierresBakery.Models
 
         public string ShowTotal()
         {
-            return "Here is your total for pastries: " + TotalPastryPrice().ToString();
+            return "Here is your total for pastries: " + TotalPrice().ToString();
         }
 
         public string ShowDeal()
