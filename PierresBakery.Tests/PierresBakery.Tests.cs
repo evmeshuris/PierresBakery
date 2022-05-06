@@ -29,4 +29,18 @@ public class UnitTest1
         bread.Quantity = 4;
         Assert.AreEqual(27, pastry.TotalPrice() + bread.TotalPrice());
     }
+    [TestMethod]
+    public void TotalPriceBread_ReturnsTotalPriceOfBread_IfQuantatyLessThanThree()
+    {
+        Bread bread = new Bread(5);
+        bread.Quantity = 2;
+        Assert.AreEqual(10, bread.TotalPrice());
+    }
+    [TestMethod]
+    public void TotalPricePastry_ReturnsTotalPriceOfPastry_IfQuantatyLessThanThree()
+    {
+        Pastry pastry = new Pastry(2);
+        pastry.Quantity = 2;
+        Assert.AreEqual(4, pastry.TotalPrice());
+    }
 }
