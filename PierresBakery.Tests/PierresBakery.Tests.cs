@@ -7,21 +7,21 @@ namespace PierresBakery.Tests;
 public class UnitTest1
 {
     [TestMethod]
-    public void TotalPriceBread_ReturnsTotalPriceOfBread()
+    public void TotalPriceBread_ReturnsTotalPriceOfBreadWithDiscount()
     {
         Bread bread = new Bread(5);
         bread.Quantity = 4;
         Assert.AreEqual(15, bread.TotalPrice());
     }
     [TestMethod]
-    public void TotalPricePastry_ReturnsTotalPriceOfPastry()
+    public void TotalPricePastry_ReturnsTotalPriceOfPastryWithDiscount()
     {
         Pastry pastry = new Pastry(2);
         pastry.Quantity = 7;
         Assert.AreEqual(12, pastry.TotalPrice());
     }
     [TestMethod]
-    public void FinalPrice_ReturnsFinalPrice()
+    public void FinalPrice_ReturnsFinalPriceWithDiscount()
     {
         Pastry pastry = new Pastry(2);
         Bread bread = new Bread(5);

@@ -57,7 +57,6 @@ namespace PierresBakery.Models
             }
             else
             {
-
                 int cntDisc = Quantity / 3;
                 return (Quantity * Price) - cntDisc;
             }
