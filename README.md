@@ -2,7 +2,7 @@
 
 #### By _Evgeniya Meshuris_
 
-#### _Pierre's Bakery_
+#### _Pierre's Bakery program calculates price with discount_
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ _This is a console program built with C#. When user run the program the console 
 * _Clone the repository using the copied URL and the "git clone" command_
 * _Navigate to the root directory of the PierresBakery_
 * _In this directory run "dotnet run" to run the program_
-* _ In Terminal navigate to the PierresBakery.Tests_
+* _In Terminal navigate to the PierresBakery.Tests_
 * _Run "dotnet restore"_
 * _Run "dotnet test" to see tests_
 
