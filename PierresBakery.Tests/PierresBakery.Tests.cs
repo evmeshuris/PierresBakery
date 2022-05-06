@@ -13,10 +13,20 @@ public class UnitTest1
         bread.Quantity = 4;
         Assert.AreEqual(15, bread.TotalPrice());
     }
-    //[TestMethod]
-    //public void TotalPricePastry_ReturnsTotalPriceOfPastry()
-    //{
-    //    Pastry pastry = new Pastry(8);
-    //    Assert.AreEqual(14, pastry.TotalPrice());
-    //}
+    [TestMethod]
+    public void TotalPricePastry_ReturnsTotalPriceOfPastry()
+    {
+        Pastry pastry = new Pastry(2);
+        pastry.Quantity = 7;
+        Assert.AreEqual(12, pastry.TotalPrice());
+    }
+    [TestMethod]
+    public void FinalPrice_ReturnsFinalPrice()
+    {
+        Pastry pastry = new Pastry(2);
+        Bread bread = new Bread(5);
+        pastry.Quantity = 7;
+        bread.Quantity = 4;
+        Assert.AreEqual(27, pastry.TotalPrice() + bread.TotalPrice());
+    }
 }

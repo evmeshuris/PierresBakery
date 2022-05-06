@@ -1,5 +1,4 @@
 ﻿<Properties StartupConfiguration="{FA8336E4-BCDA-4676-8E95-DB1F7FD35FD4}|Default">
   <MonoDevelop.Ide.ItemProperties.PierresBakery PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PierresBakery.Tests FirstBuild="True" />
 </Properties>
