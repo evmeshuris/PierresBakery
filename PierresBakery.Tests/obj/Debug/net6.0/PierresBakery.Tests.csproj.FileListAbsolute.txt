@@ -1,0 +1,6 @@
+/Users/evgeniya/Desktop/epicodus/week6/PierresBakery/PierresBakery.Tests/bin/Debug/net6.0/CoverletSourceRootsMapping
+/Users/evgeniya/Desktop/epicodus/week6/PierresBakery/PierresBakery.Tests/obj/Debug/net6.0/PierresBakery.Tests.csproj.AssemblyReference.cache
+/Users/evgeniya/Desktop/epicodus/week6/PierresBakery/PierresBakery.Tests/obj/Debug/net6.0/PierresBakery.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evgeniya/Desktop/epicodus/week6/PierresBakery/PierresBakery.Tests/obj/Debug/net6.0/PierresBakery.Tests.AssemblyInfoInputs.cache
+/Users/evgeniya/Desktop/epicodus/week6/PierresBakery/PierresBakery.Tests/obj/Debug/net6.0/PierresBakery.Tests.AssemblyInfo.cs
+/Users/evgeniya/Desktop/epicodus/week6/PierresBakery/PierresBakery.Tests/obj/Debug/net6.0/PierresBakery.Tests.csproj.CoreCompileInputs.cache
